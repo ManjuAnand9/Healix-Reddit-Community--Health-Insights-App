@@ -1,10 +1,10 @@
 # Healix React UI
 
-A frontend-only React dashboard for community health insights. This project recreates the white + sky-blue Healix interface with mock data and lightweight interactions.
+A frontend-only React dashboard for community health insights. 
 
 ## Features
 
-- Responsive white / sky-blue dashboard UI
+- Responsive UI
 - Search interaction with recent-search history
 - Save-search toggle
 - Share button with Web Share API / clipboard fallback
@@ -15,7 +15,6 @@ A frontend-only React dashboard for community health insights. This project recr
 - Informational medical disclaimer
 - Mock data kept separate from UI components
 
-> **Important:** The sample health data is fictional/demo content. This project does not provide medical advice.
 
 ## Tech
 
