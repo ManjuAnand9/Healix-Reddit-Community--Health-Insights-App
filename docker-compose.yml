@@ -1,0 +1,6 @@
+services:
+  healix-ui:
+    build: .
+    container_name: healix-ui
+    ports:
+      - "3000:80"

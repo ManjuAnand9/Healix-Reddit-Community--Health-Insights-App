@@ -1,0 +1,3 @@
+export default function SavedSearchesPage({ savedSearches, onSearch, onRemove }) {
+  return <div className="content simple-page"><div className="section-page-header"><div><p className="eyebrow">Your library</p><h1>Saved Searches</h1><p>Saved searches are stored in your browser for this demo.</p></div></div>{savedSearches.length === 0 ? <div className="empty-state"><h2>No saved searches yet</h2><p>Use “Save Search” on the Overview page.</p></div> : <div className="saved-grid">{savedSearches.map(item => <div className="saved-card" key={item}><button type="button" className="saved-title" onClick={() => onSearch(item)}>{item}</button><button type="button" className="remove-button" onClick={() => onRemove(item)}>Remove</button></div>)}</div>}</div>
+}
